@@ -9,6 +9,8 @@ class CircuitCli < Formula
 
   depends_on "python@3.11"
 
+  # Run: scripts/generate-homebrew-resources.sh to regenerate resource blocks
+  # --- BEGIN RESOURCES ---
   resource "backports-tarfile" do
     url "https://files.pythonhosted.org/packages/source/b/backports-tarfile/backports_tarfile-1.2.0.tar.gz"
     sha256 "d75e02c268746e1b8144c278978b6e98e85de6ad16f8e4b0844a154557eca991"
@@ -123,6 +125,7 @@ class CircuitCli < Formula
     url "https://files.pythonhosted.org/packages/source/z/zipp/zipp-3.23.0.tar.gz"
     sha256 "a07157588a12518c9d4034df3fbbee09c814741a33ff63c05fa29d26a2404166"
   end
+  # --- END RESOURCES ---
 
   def install
     virtualenv_install_with_resources
