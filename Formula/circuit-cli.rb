@@ -139,7 +139,7 @@ class CircuitCli < Formula
       Playwright browser is required for authentication.
       Run the following command after installation:
 
-        #{HOMEBREW_PREFIX}/bin/playwright install chromium
+        #{libexec}/bin/python -m playwright install chromium
     EOS
   end
 
