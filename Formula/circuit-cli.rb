@@ -3,8 +3,8 @@ class CircuitCli < Formula
 
   desc "CLI tool for Cisco Circuit (circuit.cisco.com)"
   homepage "https://gitlab-cxj.cisco.com/jtac-apps/circuit-cli"
-  url "https://gitlab-cxj.cisco.com/jtac-apps/circuit-cli/-/archive/v0.3.2/circuit-cli-v0.3.2.tar.gz"
-  sha256 "fedb9c0021ab7a48abbac1819e5f3ac577614e0b710af6dbc55d1826d641c2af"
+  url "https://gitlab-cxj.cisco.com/jtac-apps/circuit-cli/-/archive/v0.4.0/circuit-cli-v0.4.0.tar.gz"
+  sha256 "0c8608fde5a7b75039a158d69a2ebec20c488271a53d740cc9877b1a7c4d3644"
   license "MIT"
 
   depends_on "python@3.11"
